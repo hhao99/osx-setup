@@ -31,7 +31,7 @@ git config --global user.name "hhao99"
 git config --global user.email "hhao99@163.com"
 
 # initialized the brew cask
-brew cask tap
+brew tap cask
 # install and configure visualstudiocode
 brew cask install visual-studio-code
 
