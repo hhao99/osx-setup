@@ -11,7 +11,7 @@ if type brew > /dev/null; then
 else
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/HomeBrew/install/master/install)";
 fi;
-brew update && cleanup;
+brew update && brew cleanup;
 
 brew install zsh zsh-completion;
 
@@ -33,6 +33,6 @@ git config --global user.email "hhao99@163.com"
 # initialized the brew cask
 brew tap
 # install and configure visualstudiocode
-brew cask install visual-studio-code
+#brew cask install visual-studio-code
 
 
