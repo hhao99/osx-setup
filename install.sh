@@ -1,5 +1,5 @@
 #!/bin/bash
-#@autho Eric Hao
+#@author Eric Hao
 
 [[ -d ~/tmp ]] || mkdir ~/tmp
 [[ -d ~/code ]] || mkdir ~/code
@@ -7,7 +7,7 @@
 # check if the brew is installed and update if 'yes'
 
 if type brew > /dev/null; then
-	ehco "\e36mHomeBrew Exists";
+	echo "\e36mHomeBrew Exists";
 else
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/HomeBrew/install/master/install)";
 fi;
@@ -31,7 +31,7 @@ git config --global user.name "hhao99"
 git config --global user.email "hhao99@163.com"
 
 # initialized the brew cask
-brew tap cask
+brew tap
 # install and configure visualstudiocode
 brew cask install visual-studio-code
 
