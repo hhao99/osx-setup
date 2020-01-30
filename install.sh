@@ -35,4 +35,9 @@ brew tap
 # install and configure visualstudiocode
 #brew cask install visual-studio-code
 
-
+#  application list
+## alfred
+## vscode
+## bears
+## iterm2
+## 
